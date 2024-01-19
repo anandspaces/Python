@@ -1,8 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-x = np.array([1,2,3,4])
-y = np.array([6,7,8,9])
-print(x,y)
+import cv2
+img1=np.zeros(shape=(600,800,3),dtype=np.int32)
 
-plt.plot(x,y)
-plt.show
+cv2.rectangle(img1,pt1=(50,100),pt2=(150,250),color=(0,255,0),thickness=2)
+plt.imshow(img1)
