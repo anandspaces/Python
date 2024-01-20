@@ -1,17 +1,15 @@
-import matplotlib.pyplot as plt
+# linear search using recursion
+def linear_search(a,index):
+    if index < (len(a) - 1):
+        if a[index] == element:
+            return True
+        else:
+            return linear_search(a,index + 1)
+    return False
 
-# Sample data
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-
-# Plotting the line chart
-plt.plot(x, y, label='Line Chart')
-
-# Adding labels and a legend
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.title('Simple Line Chart')
-plt.legend()
-
-# Display the plot
-plt.show()
+a = [10,20,30,40,90,80,70,60,50]
+element = 40
+if linear_search(a,0):
+    print("element found!")
+else:
+    print("element not found!")
