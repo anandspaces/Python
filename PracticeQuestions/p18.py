@@ -1,4 +1,4 @@
-#remove duplicates from a list
+# remove duplicates from a list
 def remove_duplicates(a):
     return list(set(a))
 

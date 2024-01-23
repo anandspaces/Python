@@ -3,7 +3,7 @@ def prime_num(a,b):
     prime_list = []
     for i in range(a,b + 1):
         prime_flag = True
-        for j in range(2,int(i ** (1/2)) + 1):
+        for j in range(2,int(i ** 0.5) + 1):
             if i % j == 0:
                 prime_flag = False
                 break

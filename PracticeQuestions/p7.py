@@ -1,12 +1,9 @@
-#determine if a year is a leap year
-def isLeap(a):
-    if a%4==0:
-        return True
-    else:
-        return False
-
+# determine if a year is a leap year
+def is_leap(year):
+    return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+       
 a = int(input("year: "))
-if isLeap(a):
+if is_leap(a):
     print("it is a leap year")
 else:
     print("it is not a leap year")

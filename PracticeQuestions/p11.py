@@ -1,4 +1,4 @@
-#generate and print the fibonacci sequence up to a specified number of terms
+# generate and print the fibonacci sequence up to a specified number of terms
 def fib(a):
     if a<=0:
         return []

@@ -1,6 +1,6 @@
 # calculate exponent
 def exp(a,b):
-    return pow(a,b)
+    return a ** b
 
 a = int(input("enter num: "))
 b = int(input("enter power: "))

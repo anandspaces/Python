@@ -1,5 +1,6 @@
-#reverse a given string
+# reverse a given string
 def rev(a):
     return a[::-1]
 
-print(rev("helloworld"))
+text = "helloworld"
+print(rev(text))

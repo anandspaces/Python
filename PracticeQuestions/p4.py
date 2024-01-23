@@ -1,6 +1,6 @@
-#Build a basic calculator that performs addition, subtraction, multiplication, division
+# Build a basic calculator that performs addition, subtraction, multiplication, division
 def calc(a,b,c): 
-    def sum(a,b):
+    def add(a,b):
         return a+b
     def sub(a,b):
         return a-b
@@ -12,7 +12,7 @@ def calc(a,b,c):
         else:
             return 0
     if c=='+':
-        print(sum(a,b))
+        print(add(a,b))
     elif c=='-':
         print(sub(a,b))
     elif c=='*':
@@ -20,7 +20,7 @@ def calc(a,b,c):
     elif c=='/':
         print(div(a,b))
     else:
-        exit()
+        print("invalid operation!")
 
 try:
     while True:

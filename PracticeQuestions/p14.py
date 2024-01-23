@@ -1,4 +1,4 @@
-#count the number of vowels and consonants in a string
+# count the number of vowels and consonants in a string
 def count(a):
     vow = 0
     cons = 0

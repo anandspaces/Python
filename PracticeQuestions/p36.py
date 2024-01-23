@@ -1,7 +1,7 @@
 # check perfect number
 def is_perfect(num):
     if num <= 0:
-        False
+        return False
     else:
         divisor_sum = sum(i for i in range(1,num) if num % i == 0)
         return divisor_sum == num

@@ -7,5 +7,5 @@ def count_char(a):
 
 a = input("enter: ")
 result = count_char(a)
-for char,count_char in result.items():
-    print(f"character {char} occurs {count_char} times")
+for char,count in result.items():
+    print(f"character {char} occurs {count} times")

@@ -1,12 +1,9 @@
-#determine if a number is odd or even
-def isEven(a):
-    if a%2==0:
-        return True
-    else:
-        return False
+# determine if a number is odd or even
+def is_even(a):
+    return a%2==0
 
-a = int(input("a: "))
-if isEven(a):
+a = int(input("enter: "))
+if is_even(a):
     print("even")
 else:
     print("odd")

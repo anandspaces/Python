@@ -1,5 +1,7 @@
-#calculate and print the sum of two numbers
-def sum(a,b):
+# calculate and print the sum of two numbers
+def add(a,b):
     return a+b
 
-print(f"sum = {sum(1,2)}")
+a = int(input("enter number 1:"))
+b = int(input("enter number 2: "))
+print(f"sum = {add(a,b)}")

@@ -1,5 +1,5 @@
-#determine if a numer is prime or not
-def isPrime(a):
+# determine if a numer is prime or not
+def is_prime(a):
     if a<2:
         return False
     else:
@@ -9,7 +9,7 @@ def isPrime(a):
     return True
 
 a = int(input("number: "))
-if(isPrime(a)):
+if(is_prime(a)):
     print("given number is a prime number")
 else:
     print("given number is not a prime number")
