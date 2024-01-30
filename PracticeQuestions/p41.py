@@ -5,9 +5,9 @@ def roots_of_equation(a,b,c):
     root2 = (-b - (d ** 0.5)) / (2 * a)
     return root1,root2
 
-a = int(input("enter value of a: "))
-b = int(input("enter value of b: "))
-c = int(input("enter value of c: "))
+a = float(input("enter value of a: "))
+b = float(input("enter value of b: "))
+c = float(input("enter value of c: "))
 roots = []
 roots = roots_of_equation(a,b,c)
 print(f"result: {roots}")

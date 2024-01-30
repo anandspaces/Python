@@ -19,20 +19,20 @@ dim_of_triangle = int(input("choose input dimensions:\n\
 4) scalene sides\n\
 enter: "))
 if dim_of_triangle  == 1:
-    base = int(input("enter base: "))
-    height = int(input("enter area: "))
+    base = float(input("enter base: "))
+    height = float(input("enter area: "))
     print(f"area: {area_of_triangle(base,height)}")
 elif dim_of_triangle == 2:
-    a = int(input("enter side: "))
+    a = float(input("enter side: "))
     print(f"area: {area_of_et(a)}")
 elif dim_of_triangle == 3:
-    a = int(input("enter common side: "))
-    b = int(input("enter base: "))
+    a = float(input("enter common side: "))
+    b = float(input("enter base: "))
     print(f"area: {area_of_it(a,b)}")
 elif dim_of_triangle == 4:
-    a = int(input("enter side a: "))
-    b = int(input("enter side b: "))
-    c = int(input("enter side c: "))
+    a = float(input("enter side a: "))
+    b = float(input("enter side b: "))
+    c = float(input("enter side c: "))
     print(f"area: {area_of_st(a,b,c)}")
 else:
     print("invalid entry!")

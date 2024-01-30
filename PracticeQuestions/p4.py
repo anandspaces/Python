@@ -24,8 +24,8 @@ def calc(a,b,c):
 
 try:
     while True:
-        a = int(input("a: "))
-        b = int(input("b: "))
+        a = float(input("input 1: "))
+        b = float(input("input 2: "))
         c = input("operation(+,-,*,/): ")
         calc(a,b,c)
 except Exception as e:

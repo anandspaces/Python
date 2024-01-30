@@ -1,4 +1,4 @@
-# determine if a numer is prime or not
+# determine if a number is prime or not
 def is_prime(a):
     if a<2:
         return False

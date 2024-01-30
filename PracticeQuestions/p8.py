@@ -2,7 +2,7 @@
 def simple_interest(p,r,t):
     return (p*r*t)/100
 
-p = int(input("principal: "))
-r = int(input("rate: "))
-t = int(input("time: "))
+p = float(input("principal: "))
+r = float(input("rate: "))
+t = float(input("time: "))
 print(f"simple interest = {simple_interest(p,r,t)}")

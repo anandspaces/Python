@@ -2,4 +2,5 @@
 def convert(a):
     return (a*(9/5))+32
 
-print(f"temperature: {convert(37)} degree farenheit")
+temp = float(input("enter temperature(in celsius): "))
+print(f"temperature: {convert(temp)} degree farenheit")
